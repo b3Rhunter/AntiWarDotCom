@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  height: 100dvh;
+  overflow: hidden;
+}
+
 a {
   font-weight: 500;
   text-decoration: none;
@@ -26,11 +31,11 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  min-width: 320px;
-  max-height: 100vh;
-  max-height: 100svh;
   box-sizing: border-box;
+  height: 100dvh;
   overflow: hidden;
+  flex-direction: column;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 h1 {
@@ -134,8 +139,7 @@ nav {
 
 main {
   display: flex;
-  height: calc(100vh - 193px);
-  height: calc(100svh - 193px);
+  height: calc(100dvh - 193px);
 }
 
 .sidebar {
@@ -221,6 +225,7 @@ footer {
   z-index: 999;
   background-color: rgb(27, 27, 26);
   border-top: 1px solid rgba(255, 255, 255, 0.205);
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 footer p {
@@ -248,8 +253,7 @@ footer p {
     top: 0;
     left: 0;
     width: 50%;
-    height: calc(100vh - 75px);
-    height: calc(100svh - 75px);
+    height: calc(100dvh - 75px);
     display: flex;
     justify-content: space-evenly;
     transform: translateX(-100%);
