@@ -1,5 +1,5 @@
 import Logo from './assets/antiwar_logo.png'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
 
@@ -9,6 +9,14 @@ function App() {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isIOS) {
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%'; // Prevent width shrinkage
+      document.body.style.height = '100dvh';
+    }
+  }, []);
   return (
     <>
       <header>
