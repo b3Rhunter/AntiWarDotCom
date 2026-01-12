@@ -138,10 +138,8 @@ nav {
 }
 
 main {
-  height: 100%;
-  flex: 1 1 auto; /* Grow to fill available space */
-  overflow: hidden; /* Keep scrolls inside children */
-  display: flex; 
+  display: flex;
+  height: calc(100dvh - 196px);
 }
 
 .sidebar {
@@ -227,7 +225,6 @@ footer {
   z-index: 999;
   background-color: rgb(27, 27, 26);
   border-top: 1px solid rgba(255, 255, 255, 0.205);
-  padding-bottom: env(safe-area-inset-bottom);
 }
 
 footer p {
