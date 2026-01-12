@@ -85,7 +85,7 @@ function App() {
         <p>
           Reproduction of material from any original Antiwar.com pages
           without written permission is strictly prohibited.
-          Copyright 2026 Antiwar.com
+          <br/>Copyright 2026 Antiwar.com
         </p>
       </footer>
     </>
