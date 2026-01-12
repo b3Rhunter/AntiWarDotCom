@@ -27,6 +27,7 @@ body {
   padding: 0;
   display: flex;
   min-width: 320px;
+  max-height: 100svh;
   max-height: 100vh;
   box-sizing: border-box;
   overflow: hidden;
@@ -133,6 +134,7 @@ nav {
 
 main {
   display: flex;
+  height: calc(100svh - 193px);
   height: calc(100vh - 193px);
 }
 
@@ -246,6 +248,7 @@ footer p {
     top: 0;
     left: 0;
     width: 50%;
+    height: calc(100svh - 75px);
     height: calc(100vh - 75px);
     display: flex;
     justify-content: space-evenly;
