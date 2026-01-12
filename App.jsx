@@ -13,7 +13,7 @@ function App() {
     const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
     if (isIOS) {
       document.body.style.position = 'fixed';
-      document.body.style.width = '100%'; // Prevent width shrinkage
+      document.body.style.width = '100%';
       document.body.style.height = '100dvh';
     }
   }, []);
