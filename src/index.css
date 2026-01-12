@@ -103,7 +103,7 @@ nav {
 
 main {
   display: flex;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 193px);
 }
 
 .sidebar {
