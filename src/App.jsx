@@ -67,7 +67,7 @@ function App() {
 
 
         <section className="ads">
-          <iframe width="320" height="150" src="https://www.youtube.com/embed/hT6D-bwW8GM" title="IDF Kills 15 in Gaza in Major Escalation, Senate Advances Venezuela War Powers Bill, and More" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe width="320" height="150" src="https://www.youtube.com/embed/hT6D-bwW8GM" title="IDF Kills 15 in Gaza in Major Escalation, Senate Advances Venezuela War Powers Bill, and More" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           <img src="https://dyn3qbr4ue2vr.cloudfront.net/2025/12/SHA-link-button.jpg" alt="The Scott Horton Academy of Foreign Policy and Freedom"></img>
           <div className="columnists">
           <h4>Columnists</h4>
